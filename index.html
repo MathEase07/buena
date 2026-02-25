@@ -1,77 +1,68 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Vertical Scrollable Images</title>
+
     <style>
         body {
             margin: 0;
             padding: 0;
             background: #222;
             overflow-y: scroll;
-            height: 100vh;
         }
+
         .image-container {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
             width: 100vw;
-            margin: 0;
-            padding: 0;
         }
+
         .image-container img {
             width: 100vw;
-            max-width: none;
             height: auto;
-            margin: 0;
-            border-radius: 0;
-            box-shadow: none;
-            background: none;
             display: block;
         }
-    </style>
-</head>
-<body>
-        
-        <div class="image-container">
-        <!-- 40 images from 30.png to 69.png -->
-</style>
-    <style>
+
         .video-container {
             position: relative;
-            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            padding-bottom: 56.25%;
             height: 0;
             overflow: hidden;
-            max-width: 100vw;
-            margin-bottom: 18px;
+            width: 100vw;
         }
+
         .video-container iframe {
             position: absolute;
-            top: 0; left: 0;
-            width: 100%; height: 100%;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
             border: 0;
         }
     </style>
-    <img src="https://github.com/MathEase07/buena/blob/main/buenaventurawork-1.1.png?raw=true" alt="1">
-			 <div class="video-container">
-            <iframe src="https://drive.google.com/file/d/1ehg1AWa9uQuGAV1MqlZvQPkBI1Ot55Fq/preview"
-                            allow="autoplay; encrypted-media"
-                            allowfullscreen></iframe>
-        </div>
-	<img src="https://github.com/MathEase07/buena/blob/main/buenaventurawork-1.2.png?raw=true" alt="2">	
-			 <img src="https://github.com/MathEase07/CPALPICS/blob/main/buenaventurawork-2.png?raw=true" alt="3">
-	
-	 
-	 
-    
-   
+
+</head>
+
+<body>
+
+<div class="image-container">
+
+    <img src="https://raw.githubusercontent.com/MathEase07/buena/main/buenaventurawork-1.1.png" alt="1">
+
+    <div class="video-container">
+        <iframe src="https://drive.google.com/file/d/1ehg1AWa9uQuGAV1MqlZvQPkBI1Ot55Fq/preview"
+            allow="autoplay; encrypted-media"
+            allowfullscreen>
+        </iframe>
     </div>
+
+    <img src="https://raw.githubusercontent.com/MathEase07/buena/main/buenaventurawork-1.2.png" alt="2">
+
+    <img src="https://raw.githubusercontent.com/MathEase07/CPALPICS/main/buenaventurawork-2.png" alt="3">
+
+</div>
+
 </body>
 </html>
-
-
-
-
-
-
